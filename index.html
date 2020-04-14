@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Front-Enter - 前端轉職資訊</title>
+    <style type="text/css">
+    
+
+    header>.main-header{
+        background-color: rgb(255, 255, 255,0.6);
+        margin:0;
+        padding:0;
+    }
+    .main-header .container{
+        display:flex;
+        padding:20px;
+        max-width: 1200px;
+        align-items: center;
+        justify-content:space-between;
+        
+    }
+    .main-header .logo{
+        width:140px;
+        height:70px;
+        margin-left:50px;
+    }
+    .main-header .logo img{
+        width:100%;
+        vertical-align: middle;
+        overflow:hidden;
+       transform:scale(1,1);
+       transition: all 1s ease-out;
+    }
+    .main-header .logo img:hover{
+        transform:scale(1.2,1.2);
+    }
+    .main-header .main-nav{
+        display: flex;
+        flex-direction: row;
+        font-family: 微軟正黑體;
+    }
+    .main-header .main-nav div{
+        margin:0 50px;
+    }
+    .main-header .main-nav a{
+        color:gray;
+       text-decoration:none;
+    }
+    .main-header .main-nav a:hover{
+        color:rgb(26,216,211)
+    }
+
+    .main-header .search-icon{
+        width:20px;
+    }
+    .main-header .search-icon img{
+        width:100%;
+        vertical-align: middle;
+        overflow:hidden;
+       transform:scale(1,1);
+       transition: all 1s ease-out;
+    }
+    .main-header .search-icon img:hover{
+        transform:scale(1.2,1.2);
+    }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="material\FE_logo-4.png" alt="FE LOGO">
+            </a>
+            <nav class="main-nav">
+                <div><a href="#">探索</a></div>
+                <div><a href="#">技能樹</a></div>
+                <div><a href="#">登入</a></div>
+                <div class="search-icon">
+                    <img src="material\FE_search_green.png" alt="search">
+                </div>
+            </nav>
+            
+
+        </div>
+
+    </header>
+</body>
+</html>
