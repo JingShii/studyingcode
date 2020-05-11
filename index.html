@@ -127,11 +127,22 @@
         line-height: 15px;
         text-align: center;
         margin:10px;
+        transform:scale(0.9,1);
+        transition: all 1s ease-out;
+    }
+    main>div>.main-border:hover{
+        transform:scale(1.2,1.2)
+    }
+    #third-img{
+        background-image: url('https://jingshii.github.io/studyingcode/material/third-img.jpg');   
+        -webkit-filter:brightness(60%);
+        width:100%;
+        height:700px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     main>.thirdpart{
-        background-image: url('https://jingshii.github.io/studyingcode/material/third-img.jpg');   
-        width:auto;
-        height:700px;
         display: flex;
         flex-wrap: wrap;
        align-items: center;
@@ -139,6 +150,7 @@
        flex-direction: column;
        line-height: 40px;
        color:white;
+       position: absolute;top:260%;left:40%;
     }
     main>.thirdpart a{
         text-decoration:none;
@@ -192,15 +204,13 @@
                 <div class="focus">FRONT-ENTER</div>
                 <div>前端轉職資訊</div>
             </div>
-            <div id="second-img">
-
-            </div>
-                
+            <div id="second-img"> </div>
             <div class="secondpart">
                 <div>想知道自己適合什麼學習環境嗎？</div>
                 <div>可以點擊按鈕測測看哦！</div>
                 <div class="main-border">測驗GO!</div>
             </div>
+            <div id="third-img"> </div>
             <div class="thirdpart">
                 <div>教室精選</div>
                 <div class="main-border"><a href="#">AppWorks School</a></div>
